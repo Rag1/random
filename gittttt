@@ -1,4 +1,15 @@
+misc
+touch is for creating a new file
+
+actual git
 git is local
 github is the "cloud"
 git-DVCS(Distributed Version control software)
 repository-directory being tracked using git
+start off with git init
+to add a file(which already exists) to git repo use:
+            git add 'filename' //without quotes
+commit is the individual building block of the rep:
+            git commit -m "message"
+git config --global user.name "name" sets the name
+git status tells the status of the rep wrt untracked files and commits
