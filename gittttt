@@ -13,3 +13,4 @@ commit is the individual building block of the rep:
             git commit -m "message"
 git config --global user.name "name" sets the name
 git status tells the status of the rep wrt untracked files and commits
+every time you change a file name u have to add and commit
