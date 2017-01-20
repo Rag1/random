@@ -26,4 +26,9 @@ Remote repositories are versions of your project that are hosted on the
 Internet or network somewhere.
 git remote add <name> <url>
 You can also specify -v, which shows you the URLs that Git has stored for
-the shortname to be used when reading and writing to that remote:
+the shortname to be used when reading and writing to that remote
+git push pushes the files from branch(generally local) onto the remote
+(generally cloud)
+git push <remote-name> <branch-name> eg:git push origin master
+git show by default shows the latest commit, git show <hash> shows the commit
+with that particular hash
