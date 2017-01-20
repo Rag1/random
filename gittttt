@@ -32,3 +32,5 @@ git push pushes the files from branch(generally local) onto the remote
 git push <remote-name> <branch-name> eg:git push origin master
 git show by default shows the latest commit, git show <hash> shows the commit
 with that particular hash
+git config --global credential.helper "cache --timeout=<t>" sets password save
+for t secs
