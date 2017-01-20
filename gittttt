@@ -34,3 +34,4 @@ git show by default shows the latest commit, git show <hash> shows the commit
 with that particular hash
 git config --global credential.helper "cache --timeout=<t>" sets password save
 for t secs
+git config credential.helper store //for storing credentials 
